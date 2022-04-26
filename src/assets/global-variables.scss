@@ -1,0 +1,57 @@
+// scss 变量
+$iphone-bottom: env(safe-area-inset-bottom);
+
+$mobile-max-width: 768;
+
+$color-primary: #2c73ff;
+$color-primary-light: #f5fcfc;
+$color-primary-dark: #009292;
+$color-error: #ef7575;
+$color-error-light: #fdf1f1;
+$color-warning: #ffce27;
+$color-info: #70b7e9;
+$color-info-light: #e3f5fe;
+
+$color-text: #4b525f;
+$color-text-reverse: #fff;
+$color-text-light: #696d7f;
+$color-text-hint: #9b9da9;
+$color-text-hint-light: #cdced4;
+
+// 分割线 & 边框颜色
+$color-border: #e8eef2;
+// 遮罩层背景色
+$color-mask: rgba(0, 0, 0, 0.3);
+// 页面的默认背景色
+$color-page-bg: #f8f8fa;
+// 阴影的颜色
+$color-shadow: #0000000d;
+
+// 各通用间距
+$gutter-page: 10px; // 页面四周间距 | card 互相间距
+$gutter-content-v: 15px; // 内容部分垂直间隙（如 card 上下padding）
+$gutter-content-h: 25px; // 内容部分水平间隙（如 card 左右padding）
+
+body {
+  --wel-color-primary: #2c73ff;
+  --wel-color-white: #ffffff;
+  --wel-text-color: #4b525f;
+  --wel-text-secondary-color: #91a2bc;
+  --wel-text-placeholder-color: #c6c7c8;
+  --wel-background-color: #f8f8fa;
+  --wel-border-color: #e8eef2;
+  --wel-color-shadow: #0000000d;
+  --wel-text-placeholder: #c6c7c8;
+}
+
+:root {
+  font-size: 0.625em;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

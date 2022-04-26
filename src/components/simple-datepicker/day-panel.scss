@@ -1,0 +1,131 @@
+$primaryColor: var(--wel-color-primary);
+$secondaryColor: var(--wel-text-secondary-color);
+$backgroundColor: var(--wel-background-color);
+$borderColor: var(--wel-border-color);
+$hoverColor: #9abcff;
+$selectionColor: #2c72ff0f;
+$todayColor: #ff9e0c;
+
+.simple-calendar {
+  font-size: 14px;
+
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+    .change-month-button {
+      color: $secondaryColor;
+    }
+
+    .header-year-month {
+      flex: 1;
+      text-align: center;
+    }
+  }
+
+  .calendar-weekdays {
+    display: flex;
+    margin: 10px 0;
+    justify-content: flex-end;
+
+    .weekday-label {
+      flex: 36px 0 0;
+      font-weight: bold;
+      font-size: 10px;
+      text-align: center;
+      color: $secondaryColor;
+    }
+  }
+
+  .calendar-body {
+    display: flex;
+  }
+
+  .calendar-week-num {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid $borderColor;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+
+  .calendar-body-row {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 3px;
+    }
+
+    .day-cell--in-selection {
+      background-color: $selectionColor;
+      font-weight: bold;
+    }
+
+    .day-cell--start-date {
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+    }
+
+    .day-cell--end-date {
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+  }
+
+  .day-cell {
+    padding: 3px;
+  }
+
+  .week-cell {
+    &:not(:last-child) {
+      margin-bottom: 3px;
+    }
+  }
+
+  .styled-button {
+    height: 30px;
+    min-width: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    cursor: pointer;
+    transition: color 0.25s ease-in, background-color 0.25s ease-in,
+      opacity 0.25s ease-in;
+
+    &:hover {
+      background-color: $hoverColor;
+      color: white;
+    }
+
+    &:active {
+      background-color: $primaryColor;
+      color: white;
+    }
+  }
+
+  .day-cell--today {
+    background-color: $todayColor;
+    color: white;
+    font-weight: bold;
+  }
+
+  .day-cell--not-current-month {
+    color: $secondaryColor;
+  }
+
+  .day-cell--selected {
+    background-color: $primaryColor;
+    color: white;
+    font-weight: bold;
+  }
+
+  .day-cell--disabled {
+    cursor: not-allowed;
+    background-color: transparent;
+    color: $secondaryColor;
+  }
+}

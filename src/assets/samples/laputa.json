@@ -1,0 +1,1243 @@
+{
+  "result_code": "success",
+  "server_time": 1637048467386,
+  "user": "junji.ma",
+  "data": {
+    "id": 599,
+    "app_id": "100379",
+    "lessee_code": "BASE",
+    "lessee_name": "Base",
+    "account_type_code": "BASE",
+    "account_type_name": "Base",
+    "domain_account": "junji.ma",
+    "domain": "fareast",
+    "email": "junji.ma@nio.com",
+    "display_name": "Junji MA （马骏吉）",
+    "status": 1,
+    "status_name": "有效",
+    "active_ddl": 1652593102,
+    "roles": [
+      {
+        "id": 329,
+        "role_id": 329,
+        "code": "ROOT",
+        "name": "Root",
+        "role_type": 0,
+        "owner": "",
+        "active_ddl": 1652593102,
+        "update_active_ddl": true
+      }
+    ],
+    "conditions": [],
+    "authorities": [
+      {
+        "id": 5862,
+        "name": "PLM权限",
+        "identifier": "portal:plm:menu",
+        "parent_id": 0,
+        "priority": 0,
+        "tree_level": 0,
+        "status": 1,
+        "comment": "PLM权限",
+        "children": [
+          {
+            "id": 6446,
+            "name": "主页",
+            "identifier": "plm:home",
+            "parent_id": 5862,
+            "priority": 0,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "主页"
+          },
+          {
+            "id": 6160,
+            "name": "项目看板",
+            "identifier": "plm:project_management",
+            "parent_id": 5862,
+            "priority": 1,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "项目管理",
+            "children": [
+              {
+                "id": 6454,
+                "name": "页面权限",
+                "identifier": "plm:project_page",
+                "parent_id": 6160,
+                "priority": 0,
+                "tree_level": 2,
+                "status": 1,
+                "comment": "页面权限"
+              }
+            ]
+          },
+          {
+            "id": 6447,
+            "name": "备件管理",
+            "identifier": "plm:spareParts",
+            "parent_id": 5862,
+            "priority": 2,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "备件管理"
+          },
+          {
+            "id": 6448,
+            "name": "财务管理",
+            "identifier": "plm:financeList",
+            "parent_id": 5862,
+            "priority": 4,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "财务管理"
+          },
+          {
+            "id": 6452,
+            "name": "数据管理",
+            "identifier": "plm:dataManagement",
+            "parent_id": 5862,
+            "priority": 4,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "数据管理"
+          },
+          {
+            "id": 6449,
+            "name": "健康管理",
+            "identifier": "plm:healthManagement",
+            "parent_id": 5862,
+            "priority": 5,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "健康管理"
+          },
+          {
+            "id": 6450,
+            "name": "设备管理",
+            "identifier": "plm:deviceManagement",
+            "parent_id": 5862,
+            "priority": 5,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "设备管理"
+          },
+          {
+            "id": 6451,
+            "name": "物料管理",
+            "identifier": "plm:materialManagement",
+            "parent_id": 5862,
+            "priority": 6,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "物料管理"
+          },
+          {
+            "id": 5863,
+            "name": "设备列表",
+            "identifier": "plm:deviceList",
+            "parent_id": 5862,
+            "priority": 7,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "ECR设备列表"
+          },
+          {
+            "id": 5864,
+            "name": "ECR列表",
+            "identifier": "plm:ecrList",
+            "parent_id": 5862,
+            "priority": 7,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "ECR列表"
+          },
+          {
+            "id": 5865,
+            "name": "设备列表详情",
+            "identifier": "plm:deviceList:detail",
+            "parent_id": 5862,
+            "priority": 7,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "设备列表详情"
+          },
+          {
+            "id": 5866,
+            "name": "ECR列表详情",
+            "identifier": "plm:ecrList:detail",
+            "parent_id": 5862,
+            "priority": 7,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "ECR列表详情"
+          }
+        ]
+      },
+      {
+        "id": 5791,
+        "name": "Permissions",
+        "identifier": "lanka",
+        "parent_id": 0,
+        "priority": 99,
+        "tree_level": 0,
+        "status": 1,
+        "comment": "",
+        "children": [
+          {
+            "id": 5853,
+            "name": "Access Licence",
+            "identifier": "ACCESS_LICENCE",
+            "parent_id": 5791,
+            "priority": 20,
+            "tree_level": 1,
+            "status": 1,
+            "comment": ""
+          },
+          {
+            "id": 5816,
+            "name": "Resource management",
+            "identifier": "lanka_resource_management",
+            "parent_id": 5791,
+            "priority": 4,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5817,
+                "name": "Resource list",
+                "identifier": "lanka_resource_list",
+                "parent_id": 5816,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5818,
+                "name": "Create resource",
+                "identifier": "lanka_resource_create",
+                "parent_id": 5816,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5819,
+                "name": "Update resource",
+                "identifier": "lanka_resource_update",
+                "parent_id": 5816,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5820,
+                "name": "Delete resource",
+                "identifier": "lanka_resource_delete",
+                "parent_id": 5816,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5821,
+                "name": "Import resource",
+                "identifier": "lanka_resource_import",
+                "parent_id": 5816,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5822,
+                "name": "Export resource",
+                "identifier": "lanka_resource_export",
+                "parent_id": 5816,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5849,
+            "name": "Log management",
+            "identifier": "lanka_log_management",
+            "parent_id": 5791,
+            "priority": 10,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5850,
+                "name": "Log list",
+                "identifier": "lanka_log_list",
+                "parent_id": 5849,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5839,
+            "name": "Condition management",
+            "identifier": "lanka_condition_management",
+            "parent_id": 5791,
+            "priority": 8,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5840,
+                "name": "Condition list",
+                "identifier": "lanka_condition_list",
+                "parent_id": 5839,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5841,
+                "name": "Create condition",
+                "identifier": "lanka_condition_create",
+                "parent_id": 5839,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5842,
+                "name": "Delete condition",
+                "identifier": "lanka_condition_delete",
+                "parent_id": 5839,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5843,
+                "name": "Import condition",
+                "identifier": "lanka_condition_import",
+                "parent_id": 5839,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5844,
+                "name": "Export condition",
+                "identifier": "lanka_condition_export",
+                "parent_id": 5839,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5829,
+            "name": "Accounttype management",
+            "identifier": "lanka_accounttype_management",
+            "parent_id": 5791,
+            "priority": 6,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5830,
+                "name": "Accounttype list",
+                "identifier": "lanka_accounttype_list",
+                "parent_id": 5829,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5831,
+                "name": "Create accounttype",
+                "identifier": "lanka_accounttype_create",
+                "parent_id": 5829,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5832,
+                "name": "Update accounttype",
+                "identifier": "lanka_accounttype_update",
+                "parent_id": 5829,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5833,
+                "name": "Delete accounttype",
+                "identifier": "lanka_accounttype_delete",
+                "parent_id": 5829,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5851,
+            "name": "Whitelist management",
+            "identifier": "lanka_whitelist_management",
+            "parent_id": 5791,
+            "priority": 11,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5852,
+                "name": "White list",
+                "identifier": "lanka_whitelist_list",
+                "parent_id": 5851,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5809,
+            "name": "Authority management",
+            "identifier": "lanka_authority_management",
+            "parent_id": 5791,
+            "priority": 3,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5810,
+                "name": "Authority list",
+                "identifier": "lanka_authority_list",
+                "parent_id": 5809,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5811,
+                "name": "Create authority",
+                "identifier": "lanka_authority_create",
+                "parent_id": 5809,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5812,
+                "name": "Update authority",
+                "identifier": "lanka_authority_update",
+                "parent_id": 5809,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5813,
+                "name": "Delete authority",
+                "identifier": "lanka_authority_delete",
+                "parent_id": 5809,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5814,
+                "name": "Import authority",
+                "identifier": "lanka_authority_import",
+                "parent_id": 5809,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5815,
+                "name": "Export authority",
+                "identifier": "lanka_authority_export",
+                "parent_id": 5809,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5800,
+            "name": "Role management",
+            "identifier": "lanka_role_management",
+            "parent_id": 5791,
+            "priority": 2,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5805,
+                "name": "Dispatch role authority",
+                "identifier": "lanka_role_dispatch_authority",
+                "parent_id": 5800,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5806,
+                "name": "Transfer role owner",
+                "identifier": "lanka_role_transfer",
+                "parent_id": 5800,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5807,
+                "name": "Import role",
+                "identifier": "lanka_role_import",
+                "parent_id": 5800,
+                "priority": 7,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5808,
+                "name": "Export role",
+                "identifier": "lanka_role_export",
+                "parent_id": 5800,
+                "priority": 8,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5801,
+                "name": "Role list",
+                "identifier": "lanka_role_list",
+                "parent_id": 5800,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5802,
+                "name": "Create role",
+                "identifier": "lanka_role_create",
+                "parent_id": 5800,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5803,
+                "name": "Update role",
+                "identifier": "lanka_role_update",
+                "parent_id": 5800,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5804,
+                "name": "Delete role",
+                "identifier": "lanka_role_delete",
+                "parent_id": 5800,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5823,
+            "name": "Lessee management",
+            "identifier": "lanka_lessee_management",
+            "parent_id": 5791,
+            "priority": 5,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5826,
+                "name": "Update lessee",
+                "identifier": "lanka_lessee_update",
+                "parent_id": 5823,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5827,
+                "name": "Delete lessee",
+                "identifier": "lanka_lessee_delete",
+                "parent_id": 5823,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5828,
+                "name": "Dispatch Lessee Authority",
+                "identifier": "lanka_lessee_dispatch_authority",
+                "parent_id": 5823,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5824,
+                "name": "Lessee list",
+                "identifier": "lanka_lessee_list",
+                "parent_id": 5823,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5825,
+                "name": "Create lessee",
+                "identifier": "lanka_lessee_create",
+                "parent_id": 5823,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5834,
+            "name": "Rule management",
+            "identifier": "lanka_rule_management",
+            "parent_id": 5791,
+            "priority": 7,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5837,
+                "name": "Update rule",
+                "identifier": "lanka_rule_update",
+                "parent_id": 5834,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5838,
+                "name": "Delete rule",
+                "identifier": "lanka_rule_delete",
+                "parent_id": 5834,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5835,
+                "name": "Rule list",
+                "identifier": "lanka_rule_list",
+                "parent_id": 5834,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5836,
+                "name": "Create rule",
+                "identifier": "lanka_rule_create",
+                "parent_id": 5834,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5845,
+            "name": "Conditiontype management",
+            "identifier": "lanka_conditiontype_management",
+            "parent_id": 5791,
+            "priority": 9,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5848,
+                "name": "Delete conditiontype",
+                "identifier": "lanka_conditiontype_delete",
+                "parent_id": 5845,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5846,
+                "name": "Conditiontype list",
+                "identifier": "lanka_conditiontype_list",
+                "parent_id": 5845,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5847,
+                "name": "Create conditiontype",
+                "identifier": "lanka_conditiontype_create",
+                "parent_id": 5845,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5792,
+            "name": "Admin management",
+            "identifier": "lanka_admin_management",
+            "parent_id": 5791,
+            "priority": 1,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5794,
+                "name": "Unbound Admin list",
+                "identifier": "lanka_unboundadmin_list",
+                "parent_id": 5792,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5795,
+                "name": "Create admin",
+                "identifier": "lanka_admin_create",
+                "parent_id": 5792,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5796,
+                "name": "Update admin",
+                "identifier": "lanka_admin_update",
+                "parent_id": 5792,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5797,
+                "name": "Delete admin",
+                "identifier": "lanka_admin_delete",
+                "parent_id": 5792,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5798,
+                "name": "Dispatch admin authority",
+                "identifier": "lanka_admin_dispatch_authority",
+                "parent_id": 5792,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5799,
+                "name": "Import admin",
+                "identifier": "lanka_admin_import",
+                "parent_id": 5792,
+                "priority": 7,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5793,
+                "name": "Admin list",
+                "identifier": "lanka_admin_list",
+                "parent_id": 5792,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "id": 2475,
+        "identifier": "lanka:account_type:delete",
+        "name": "Delete account type api",
+        "path": "DELETE/api/v1/account-type/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2503,
+        "identifier": "lanka:rule:delete",
+        "name": "Delete role rule api",
+        "path": "DELETE/api/v1/role-rule/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2496,
+        "identifier": "lanka:condition_type:delete",
+        "name": "Delete condition type api",
+        "path": "DELETE/api/v1/condition-type/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2465,
+        "identifier": "lanka:administrator_authority_resources:list",
+        "name": "Get administrator authorities resources api",
+        "path": "GET/api/v1/administrator/*/authorities-resources",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2464,
+        "identifier": "lanka:administrator_authority:list",
+        "name": "Get administrator authorities api",
+        "path": "GET/api/v1/administrator/*/authorities",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2477,
+        "identifier": "lanka:role:create",
+        "name": "Create role api",
+        "path": "POST/api/v1/role",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2482,
+        "identifier": "lanka:role_authority:allot",
+        "name": "Allot role authorities api",
+        "path": "POST/api/v1/role/*/authorities",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2488,
+        "identifier": "lanka:authority_resource:list",
+        "name": "Get authority resources api",
+        "path": "GET/api/v1/authority/*/resources",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2487,
+        "identifier": "lanka:authority:delete",
+        "name": "Delete authority api",
+        "path": "DELETE/api/v1/authority/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2467,
+        "identifier": "lanka:lessee:list",
+        "name": "Get lessees api",
+        "path": "GET/api/v1/lessees",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2471,
+        "identifier": "lanka:lessee_authority:list",
+        "name": "Get lessee authorities api",
+        "path": "GET/api/v1/lessee/*/authorities",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2472,
+        "identifier": "lanka:lessee_authority:allot",
+        "name": "Allot lessee authorities api",
+        "path": "POST/api/v1/lessee/*/authorities",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2500,
+        "identifier": "lanka:rule:list",
+        "name": "Get role rules api",
+        "path": "GET/api/v1/role-rules",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2497,
+        "identifier": "lanka:condition:create",
+        "name": "Create condition api",
+        "path": "POST/api/v1/condition",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2504,
+        "identifier": "lanka:whitelist:create",
+        "name": "Create whitelist api",
+        "path": "POST/api/v1/whitelist",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2461,
+        "identifier": "lanka:administrator:create",
+        "name": "Create administrator api",
+        "path": "POST/api/v1/administrator",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2466,
+        "identifier": "lanka:administrator_authority:allot",
+        "name": "Allot administrator authorities api",
+        "path": "POST/api/v1/administrator/*/authorities",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2478,
+        "identifier": "lanka:role:update",
+        "name": "Update role api",
+        "path": "PUT/api/v1/role/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2480,
+        "identifier": "lanka:role:transfer",
+        "name": "Transfer role api",
+        "path": "PUT/api/v1/role/transfer/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2490,
+        "identifier": "lanka:resource:list",
+        "name": "Get resources api",
+        "path": "GET/api/v1/resources",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2491,
+        "identifier": "lanka:resource:create",
+        "name": "Create resource api",
+        "path": "POST/api/v1/resource",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2468,
+        "identifier": "lanka:lessee:create",
+        "name": "Create lessee api",
+        "path": "POST/api/v1/lessee",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2473,
+        "identifier": "lanka:account_type:create",
+        "name": "Create account type api",
+        "path": "POST/api/v1/account-type",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2501,
+        "identifier": "lanka:rule:create",
+        "name": "Create role rule api",
+        "path": "POST/api/v1/role-rule",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2499,
+        "identifier": "lanka:condition:delete",
+        "name": "Delete condition api",
+        "path": "DELETE/api/v1/condition/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2505,
+        "identifier": "lanka:whitelist:delete",
+        "name": "Delete whitelist api",
+        "path": "DELETE/api/v1/whitelist/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2459,
+        "identifier": "lanka:administrator:list",
+        "name": "Get administrators api",
+        "path": "GET/api/v1/administrators",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2463,
+        "identifier": "lanka:administrator:update",
+        "name": "Update administrator api",
+        "path": "PUT/api/v1/administrator/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2483,
+        "identifier": "lanka:authority:list",
+        "name": "Get authorities api",
+        "path": "GET/api/v1/authorities",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2479,
+        "identifier": "lanka:role:delete",
+        "name": "Delete role api",
+        "path": "DELETE/api/v1/role/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2507,
+        "identifier": "lanka:component:export",
+        "name": "Export component api",
+        "path": "POST/api/v1/export/create",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2486,
+        "identifier": "lanka:authority:update",
+        "name": "Update authority api",
+        "path": "PUT/api/v1/authority/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2492,
+        "identifier": "lanka:resource:update",
+        "name": "Update resource api",
+        "path": "PUT/api/v1/resource/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2469,
+        "identifier": "lanka:lessee:update",
+        "name": "Update lessee api",
+        "path": "PUT/api/v1/lessee/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2474,
+        "identifier": "lanka:account_type:update",
+        "name": "Update account type api",
+        "path": "PUT/api/v1/account-type/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2502,
+        "identifier": "lanka:rule:update",
+        "name": "Update role rule api",
+        "path": "PUT/api/v1/role-rule/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2494,
+        "identifier": "lanka:condition_type:create",
+        "name": "Create condition type api",
+        "path": "POST/api/v1/condition-type",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2460,
+        "identifier": "lanka:administrator:detail",
+        "name": "Get administrator api",
+        "path": "GET/api/v1/administrator/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2462,
+        "identifier": "lanka:administrator:delete",
+        "name": "Delete administrator api",
+        "path": "DELETE/api/v1/administrator/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2506,
+        "identifier": "lanka:component:import",
+        "name": "Import component api",
+        "path": "POST/api/v1/import/redis",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2481,
+        "identifier": "lanka:role_authority:list",
+        "name": "Get role authorities api",
+        "path": "GET/api/v1/role/*/authorities",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2485,
+        "identifier": "lanka:authority:create",
+        "name": "Create authority api",
+        "path": "POST/api/v1/authority",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2489,
+        "identifier": "lanka:authority_resource:allot",
+        "name": "Allot authority resources api",
+        "path": "POST/api/v1/authority/*/resources",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2493,
+        "identifier": "lanka:resource:delete",
+        "name": "Delete resource api",
+        "path": "DELETE/api/v1/resource/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      },
+      {
+        "id": 2470,
+        "identifier": "lanka:lessee:delete",
+        "name": "Delete lessee api",
+        "path": "DELETE/api/v1/lessee/*",
+        "status": 1,
+        "creation_time": 1632362392,
+        "update_time": 1632362392
+      }
+    ],
+    "organizations": [],
+    "creation_time": 1632462793,
+    "update_time": 1637041102
+  }
+}

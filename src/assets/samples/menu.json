@@ -1,0 +1,730 @@
+{
+  "data": {
+    "authorities": [
+      {
+        "id": 5862,
+        "name": "pp-apollo-fe",
+        "identifier": "portal:owl:menu",
+        "parent_id": 0,
+        "priority": 0,
+        "tree_level": 0,
+        "status": 1,
+        "children": [
+          {
+            "id": 6160,
+            "name": "换电指标",
+            "identifier": "",
+            "parent_id": 5862,
+            "priority": 1,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "icon": "wel-model",
+            "children": [
+              {
+                "id": 5818,
+                "name": "指标看板",
+                "identifier": "",
+                "path": "/ftt/dashboard/rank",
+                "parent_id": 5816,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5819,
+                "name": "故障诊断",
+                "identifier": "",
+                "path": "/ftt/dignosis",
+                "parent_id": 5816,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 6160,
+            "name": "能耗分析",
+            "identifier": "",
+            "parent_id": 5862,
+            "priority": 1,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "icon": "wel-algorithm",
+            "children": [
+              {
+                "id": 5818,
+                "name": "能耗看板",
+                "identifier": "",
+                "path": "/energy-consumption/dashboard",
+                "parent_id": 5816,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5791,
+        "name": "Permissions",
+        "identifier": "lanka",
+        "parent_id": 0,
+        "priority": 99,
+        "tree_level": 0,
+        "status": 1,
+        "comment": "",
+        "children": [
+          {
+            "id": 5853,
+            "name": "Access Licence",
+            "identifier": "ACCESS_LICENCE",
+            "parent_id": 5791,
+            "priority": 20,
+            "tree_level": 1,
+            "status": 1,
+            "comment": ""
+          },
+          {
+            "id": 5816,
+            "name": "Resource management",
+            "identifier": "lanka_resource_management",
+            "parent_id": 5791,
+            "priority": 4,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5817,
+                "name": "Resource list",
+                "identifier": "lanka_resource_list",
+                "parent_id": 5816,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5818,
+                "name": "Create resource",
+                "identifier": "lanka_resource_create",
+                "parent_id": 5816,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5819,
+                "name": "Update resource",
+                "identifier": "lanka_resource_update",
+                "parent_id": 5816,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5820,
+                "name": "Delete resource",
+                "identifier": "lanka_resource_delete",
+                "parent_id": 5816,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5821,
+                "name": "Import resource",
+                "identifier": "lanka_resource_import",
+                "parent_id": 5816,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5822,
+                "name": "Export resource",
+                "identifier": "lanka_resource_export",
+                "parent_id": 5816,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5849,
+            "name": "Log management",
+            "identifier": "lanka_log_management",
+            "parent_id": 5791,
+            "priority": 10,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5850,
+                "name": "Log list",
+                "identifier": "lanka_log_list",
+                "parent_id": 5849,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5839,
+            "name": "Condition management",
+            "identifier": "lanka_condition_management",
+            "parent_id": 5791,
+            "priority": 8,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5840,
+                "name": "Condition list",
+                "identifier": "lanka_condition_list",
+                "parent_id": 5839,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5841,
+                "name": "Create condition",
+                "identifier": "lanka_condition_create",
+                "parent_id": 5839,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5842,
+                "name": "Delete condition",
+                "identifier": "lanka_condition_delete",
+                "parent_id": 5839,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5843,
+                "name": "Import condition",
+                "identifier": "lanka_condition_import",
+                "parent_id": 5839,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5844,
+                "name": "Export condition",
+                "identifier": "lanka_condition_export",
+                "parent_id": 5839,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5829,
+            "name": "Accounttype management",
+            "identifier": "lanka_accounttype_management",
+            "parent_id": 5791,
+            "priority": 6,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5830,
+                "name": "Accounttype list",
+                "identifier": "lanka_accounttype_list",
+                "parent_id": 5829,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5831,
+                "name": "Create accounttype",
+                "identifier": "lanka_accounttype_create",
+                "parent_id": 5829,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5832,
+                "name": "Update accounttype",
+                "identifier": "lanka_accounttype_update",
+                "parent_id": 5829,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5833,
+                "name": "Delete accounttype",
+                "identifier": "lanka_accounttype_delete",
+                "parent_id": 5829,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5851,
+            "name": "Whitelist management",
+            "identifier": "lanka_whitelist_management",
+            "parent_id": 5791,
+            "priority": 11,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5852,
+                "name": "White list",
+                "identifier": "lanka_whitelist_list",
+                "parent_id": 5851,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5809,
+            "name": "Authority management",
+            "identifier": "lanka_authority_management",
+            "parent_id": 5791,
+            "priority": 3,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5810,
+                "name": "Authority list",
+                "identifier": "lanka_authority_list",
+                "parent_id": 5809,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5811,
+                "name": "Create authority",
+                "identifier": "lanka_authority_create",
+                "parent_id": 5809,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5812,
+                "name": "Update authority",
+                "identifier": "lanka_authority_update",
+                "parent_id": 5809,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5813,
+                "name": "Delete authority",
+                "identifier": "lanka_authority_delete",
+                "parent_id": 5809,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5814,
+                "name": "Import authority",
+                "identifier": "lanka_authority_import",
+                "parent_id": 5809,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5815,
+                "name": "Export authority",
+                "identifier": "lanka_authority_export",
+                "parent_id": 5809,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5800,
+            "name": "Role management",
+            "identifier": "lanka_role_management",
+            "parent_id": 5791,
+            "priority": 2,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5805,
+                "name": "Dispatch role authority",
+                "identifier": "lanka_role_dispatch_authority",
+                "parent_id": 5800,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5806,
+                "name": "Transfer role owner",
+                "identifier": "lanka_role_transfer",
+                "parent_id": 5800,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5807,
+                "name": "Import role",
+                "identifier": "lanka_role_import",
+                "parent_id": 5800,
+                "priority": 7,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5808,
+                "name": "Export role",
+                "identifier": "lanka_role_export",
+                "parent_id": 5800,
+                "priority": 8,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5801,
+                "name": "Role list",
+                "identifier": "lanka_role_list",
+                "parent_id": 5800,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5802,
+                "name": "Create role",
+                "identifier": "lanka_role_create",
+                "parent_id": 5800,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5803,
+                "name": "Update role",
+                "identifier": "lanka_role_update",
+                "parent_id": 5800,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5804,
+                "name": "Delete role",
+                "identifier": "lanka_role_delete",
+                "parent_id": 5800,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5823,
+            "name": "Lessee management",
+            "identifier": "lanka_lessee_management",
+            "parent_id": 5791,
+            "priority": 5,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5826,
+                "name": "Update lessee",
+                "identifier": "lanka_lessee_update",
+                "parent_id": 5823,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5827,
+                "name": "Delete lessee",
+                "identifier": "lanka_lessee_delete",
+                "parent_id": 5823,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5828,
+                "name": "Dispatch Lessee Authority",
+                "identifier": "lanka_lessee_dispatch_authority",
+                "parent_id": 5823,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5824,
+                "name": "Lessee list",
+                "identifier": "lanka_lessee_list",
+                "parent_id": 5823,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5825,
+                "name": "Create lessee",
+                "identifier": "lanka_lessee_create",
+                "parent_id": 5823,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5834,
+            "name": "Rule management",
+            "identifier": "lanka_rule_management",
+            "parent_id": 5791,
+            "priority": 7,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5837,
+                "name": "Update rule",
+                "identifier": "lanka_rule_update",
+                "parent_id": 5834,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5838,
+                "name": "Delete rule",
+                "identifier": "lanka_rule_delete",
+                "parent_id": 5834,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5835,
+                "name": "Rule list",
+                "identifier": "lanka_rule_list",
+                "parent_id": 5834,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5836,
+                "name": "Create rule",
+                "identifier": "lanka_rule_create",
+                "parent_id": 5834,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5845,
+            "name": "Conditiontype management",
+            "identifier": "lanka_conditiontype_management",
+            "parent_id": 5791,
+            "priority": 9,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5848,
+                "name": "Delete conditiontype",
+                "identifier": "lanka_conditiontype_delete",
+                "parent_id": 5845,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5846,
+                "name": "Conditiontype list",
+                "identifier": "lanka_conditiontype_list",
+                "parent_id": 5845,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5847,
+                "name": "Create conditiontype",
+                "identifier": "lanka_conditiontype_create",
+                "parent_id": 5845,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "id": 5792,
+            "name": "Admin management",
+            "identifier": "lanka_admin_management",
+            "parent_id": 5791,
+            "priority": 1,
+            "tree_level": 1,
+            "status": 1,
+            "comment": "",
+            "children": [
+              {
+                "id": 5794,
+                "name": "Unbound Admin list",
+                "identifier": "lanka_unboundadmin_list",
+                "parent_id": 5792,
+                "priority": 2,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5795,
+                "name": "Create admin",
+                "identifier": "lanka_admin_create",
+                "parent_id": 5792,
+                "priority": 3,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5796,
+                "name": "Update admin",
+                "identifier": "lanka_admin_update",
+                "parent_id": 5792,
+                "priority": 4,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5797,
+                "name": "Delete admin",
+                "identifier": "lanka_admin_delete",
+                "parent_id": 5792,
+                "priority": 5,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5798,
+                "name": "Dispatch admin authority",
+                "identifier": "lanka_admin_dispatch_authority",
+                "parent_id": 5792,
+                "priority": 6,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5799,
+                "name": "Import admin",
+                "identifier": "lanka_admin_import",
+                "parent_id": 5792,
+                "priority": 7,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              },
+              {
+                "id": 5793,
+                "name": "Admin list",
+                "identifier": "lanka_admin_list",
+                "parent_id": 5792,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+// 导入公司字体
+@import './assets/fonts/fonts.css';
+// 导入iconfont
+@import './assets/iconfont/style.css';
+// 导入全局样式
+@import './assets/global-variables.scss';
+// 修改iconfont默认样式
+@import './assets/iconfont-override.scss';
+
+#app {
+  font-family: 'Blue Sky Standard', 'Noto Sans CJK SC', 'Noto Sans', Avenir,
+    Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-text;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+a {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.4rem;
+}
