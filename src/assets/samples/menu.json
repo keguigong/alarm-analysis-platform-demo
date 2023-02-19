@@ -42,6 +42,17 @@
                 "tree_level": 2,
                 "status": 1,
                 "comment": ""
+              },
+              {
+                "id": 5818,
+                "name": "能耗看板",
+                "identifier": "",
+                "path": "/energy-consumption/dashboard",
+                "parent_id": 5816,
+                "priority": 1,
+                "tree_level": 2,
+                "status": 1,
+                "comment": ""
               }
             ]
           },

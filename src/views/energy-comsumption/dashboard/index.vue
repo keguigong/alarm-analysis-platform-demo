@@ -7,7 +7,7 @@
       <div class="map-overlay map-overlay-bottom"></div>
       <div class="map-overlay map-overlay-left"></div>
     </div>
-    <page-header class="page-header" title="换电站能耗看板">
+    <page-header class="page-header" title="名称名称">
       <template #right>
         <tabs
           hideBar

@@ -55,71 +55,71 @@ export default class EfficiencyList extends Vue {
   @Prop({
     default: () => [
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8
       },
       {
-        deviceId: 'PS-NIO-ffa62be5-0994b37a',
-        deviceName: '蔚来换电站 烟台红星美凯龙建材商场',
+        deviceId: 'XX-XXX-1234567890',
+        deviceName: '名称名称名称名称名称名称名称',
         overallScore: 98.7,
         mechanicalScore: 97.6,
         bayboltScore: 99.8

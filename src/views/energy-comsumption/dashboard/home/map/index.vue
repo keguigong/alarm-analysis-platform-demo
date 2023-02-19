@@ -18,7 +18,7 @@ import fitCountry from './fit-country'
 import drawHeatmap from './draw-heat-map'
 import drawPrism from './draw-prism'
 // import LabelsData from './china-province-label'
-// import deviceList from '@/assets/samples/device-list.json'
+import deviceList from '@/assets/samples/device-list.json'
 
 import { BoardCellCard, Tabs } from '@/components'
 
@@ -87,7 +87,7 @@ export default class EfficiencyMap extends Vue {
     // }
 
     if (typeof Loca === 'undefined') return
-    // this.drawHeatmap()
+    this.drawHeatmap()
     // this.drawPrism()
   }
 
@@ -241,24 +241,24 @@ export default class EfficiencyMap extends Vue {
 
   fitCountry!: () => void
 
-  // get heatmapFeatures() {
-  //   let features: any[] = []
-  //   deviceList.forEach((item: any) => {
-  //     if (item.longitude && item.latitude) {
-  //       features.push({
-  //         type: 'Feature',
-  //         properties: {
-  //           ...item
-  //         },
-  //         geometry: {
-  //           type: 'Point',
-  //           coordinates: [item.longitude, item.latitude]
-  //         }
-  //       })
-  //     }
-  //   })
-  //   return features
-  // }
+  get heatmapFeatures() {
+    let features: any[] = []
+    deviceList.forEach((item: any) => {
+      if (item.longitude && item.latitude) {
+        features.push({
+          type: 'Feature',
+          properties: {
+            ...item
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [item.longitude, item.latitude]
+          }
+        })
+      }
+    })
+    return features
+  }
 
   // get prismFeatures() {
   //   let features: any[] = []

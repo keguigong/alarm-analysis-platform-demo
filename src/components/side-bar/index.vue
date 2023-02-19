@@ -1,7 +1,7 @@
 <template>
   <aside id="side-bar-container" :style="{ width: width + 'px' }">
     <div class="side-bar">
-      <menu-bar :menus="state.menu" @input="handleMenuClick" />
+      <!-- <menu-bar :menus="state.menu" @input="handleMenuClick" /> -->
       <nav-bar :menus="state.menu" :activeMenuIndex="state.activeMenuIndex" />
       <side-handler @resize="handleResize" />
     </div>
@@ -41,7 +41,7 @@ export default class SideBar extends Vue {
   watch$Route(value: Route) {
     this.matchActivePath(value)
 
-    this.state.activeMenuIndex = this.findActiveMenuIndex()
+    // this.state.activeMenuIndex = this.findActiveMenuIndex()
   }
 
   mounted() {

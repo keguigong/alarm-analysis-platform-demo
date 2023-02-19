@@ -54,69 +54,69 @@ export default class TargetPanel extends Vue {
     default: () => [
       {
         indicatorId: '',
-        description: '运营二代站数量',
+        description: '名称名称',
         indicator: 500,
         unit: ''
       },
       {
         indicatorId: 'total_service_cnt',
-        description: '总换电单量',
+        description: '名称名称',
         indicator: 1078000,
         unit: '单',
         avgIndicator: 2069
       },
       {
         indicatorId: '',
-        description: '总用电量',
+        description: '名称名称',
         indicator: 16203.9,
         unit: '度',
         avgIndicator: 11.9
       },
       {
         indicatorId: '',
-        description: '配电总用电量',
+        description: '名称名称',
         indicator: 343.8,
         unit: '度',
         avgIndicator: 0.66
       },
       {
         indicatorId: '',
-        description: 'PUE',
+        description: '名称名称',
         indicator: 1.225,
         unit: '',
         avgIndicator: 1.225
       },
       {
         indicatorId: '',
-        description: '二代站总效率',
+        description: '名称名称',
         indicator: 81.62,
         unit: '%',
         avgIndicator: 81.3
       },
       {
         indicatorId: '',
-        description: '配电回路用电量占比',
+        description: '名称名称',
         indicator: 5.54,
         unit: '%',
         avgIndicator: 5.54
       },
       {
         indicatorId: '',
-        description: '充电模块输出端效率',
+        description: '名称名称',
         indicator: 90.57,
         unit: '%',
         avgIndicator: 89.92
       },
       {
         indicatorId: '',
-        description: '电池直流充电效率',
+        description: '名称名称',
         indicator: 96.59,
         unit: '%',
         avgIndicator: 89.92
       },
       {
         indicatorId: '',
-        description: '每单耗电量',
+        description: '名称名称',
         indicator: 100,
         unit: '%',
         avgIndicator: 100
@@ -131,7 +131,7 @@ export default class TargetPanel extends Vue {
   }
 
   state = {
-    highlightIndicator: new Set(['二代站总效率', '配电回路用电量占比'])
+    highlightIndicator: new Set(['名称名称', '名称名称'])
   }
 
   groupedList: any[][] = []
