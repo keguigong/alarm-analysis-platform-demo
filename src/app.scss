@@ -1,5 +1,3 @@
-// 导入公司字体
-@import './assets/fonts/fonts.css';
 // 导入iconfont
 @import './assets/iconfont/style.css';
 // 导入全局样式
@@ -8,8 +6,8 @@
 @import './assets/iconfont-override.scss';
 
 #app {
-  font-family: 'Blue Sky Standard', 'Noto Sans CJK SC', 'Noto Sans', Avenir,
-    Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $color-text;

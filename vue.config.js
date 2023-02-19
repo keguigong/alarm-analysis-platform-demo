@@ -4,5 +4,8 @@ module.exports = {
     port: 9091,
     disableHostCheck: true
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/alarm-analysis-platform-demo/" : "",
+  publicPath:
+    process.env.NODE_ENV === 'production'
+      ? '/alarm-analysis-platform-demo/'
+      : '/'
 }

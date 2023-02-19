@@ -48,12 +48,12 @@ export default class SideBar extends Vue {
     let localWidthStr = localStorage.getItem(KEY_SIDEBAR_WIDTH)
     let localWidth
     if (localWidthStr) localWidth = parseInt(localWidthStr)
-    this.width = localWidth || 300
+    this.width = localWidth || 180
   }
 
   handleResize(value: number) {
     let newWidth = this.width + value
-    if (newWidth <= 260 || newWidth >= document.body.clientWidth - 300) return
+    if (newWidth <= 180 || newWidth >= document.body.clientWidth - 260) return
     this.width = newWidth
     localStorage.setItem(KEY_SIDEBAR_WIDTH, this.width.toString())
   }
@@ -116,7 +116,7 @@ export default class SideBar extends Vue {
 
 <style lang="scss" scoped>
 #side-bar-container {
-  width: 260px;
+  width: 180px;
   position: relative;
   z-index: 1;
 

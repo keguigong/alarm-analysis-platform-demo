@@ -1,13 +1,16 @@
 import { toCamelCase, toSnakeCase, toQueryString } from '@/utils'
 import axios, { AxiosError } from 'axios'
 
+const urlpath =
+  process.env.NODE_ENV === 'production' ? '/alarm-analysis-platform-demo/' : '/'
+
 /**
  * 故障原因诊断
  */
 export const apiGetDiagnosis = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       return {
         totalResults: 100,
@@ -110,7 +113,7 @@ export const apiGetDiagnosis = (query: any) => {
 export const apiGetDiagnosisOptions = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data)
@@ -127,7 +130,7 @@ export const apiGetDiagnosisOptions = (query: any) => {
  */
 export const apiPostManualDiagnosis = (query: any) => {
   return axios
-    .post('/', {
+    .post(urlpath, {
       ...toSnakeCase(query)
     })
     .then((res) => {
@@ -146,7 +149,7 @@ export const apiPostManualDiagnosis = (query: any) => {
  */
 export const apiGetHighSpeedPlcOptions = () => {
   return axios
-    .get('/')
+    .get(urlpath)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data)
@@ -164,7 +167,7 @@ export const apiGetHighSpeedPlcOptions = () => {
 export const apiGetSensorOptions = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data)
@@ -182,7 +185,7 @@ export const apiGetSensorOptions = (query: any) => {
 export const apiGetSensorRecord = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data, { stopPaths: ['data.list'] })
@@ -200,7 +203,7 @@ export const apiGetSensorRecord = (query: any) => {
 export const apiGetHightSpeedRecord = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data, { stopPaths: ['data.list'] })
@@ -218,7 +221,7 @@ export const apiGetHightSpeedRecord = (query: any) => {
 export const apiGetHighSpeedSensorOptions = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data)
@@ -236,7 +239,7 @@ export const apiGetHighSpeedSensorOptions = (query: any) => {
 export const apiGetHighSpeedSensorRecord = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data, { stopPaths: ['data.list'] })

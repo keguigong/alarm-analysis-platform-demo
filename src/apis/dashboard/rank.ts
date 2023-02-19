@@ -1,13 +1,16 @@
 import { toCamelCase, toQueryString } from '@/utils'
 import axios, { AxiosError } from 'axios'
 
+const urlpath =
+  process.env.NODE_ENV === 'production' ? '/alarm-analysis-platform-demo/' : '/'
+
 /**
  * TOP10列表
  */
 export const apiGetFttScore = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       return {
         totalResults: 100,
@@ -79,7 +82,7 @@ export const apiGetFttScore = (query: any) => {
 export const apiGetAlarmCategoryRaiseCount = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       return {
         list: [
@@ -137,7 +140,7 @@ export const apiGetAlarmCategoryRaiseCount = (query: any) => {
 export const apiGetFttHistory = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       return {
         list: [
@@ -207,7 +210,7 @@ export const apiGetFttHistory = (query: any) => {
 export const apiGetAlarmRaiseCount = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       return {
         list: [
@@ -259,7 +262,7 @@ export const apiGetAlarmRaiseCount = (query: any) => {
 export const apiGetAlarmRaiseHistory = (query: any) => {
   const param = toQueryString(query)
   return axios
-    .get('/' + param)
+    .get(urlpath + param)
     .then((res) => {
       const data = res.data
       const camelData = toCamelCase(data)
