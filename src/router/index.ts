@@ -96,7 +96,7 @@ const router = new VueRouter({
   mode: 'history',
   base:
     process.env.NODE_ENV === 'production'
-      ? '/alarm-analysis-platform-demo/'
+      ? '/sample-analysis-platform/'
       : '/',
   routes
 })

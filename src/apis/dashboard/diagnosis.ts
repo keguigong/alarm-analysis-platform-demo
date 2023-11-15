@@ -2,7 +2,7 @@ import { toCamelCase, toSnakeCase, toQueryString } from '@/utils'
 import axios, { AxiosError } from 'axios'
 
 const urlpath =
-  process.env.NODE_ENV === 'production' ? '/alarm-analysis-platform-demo/' : '/'
+  process.env.NODE_ENV === 'production' ? '/sample-alarm-analysis-platform/' : '/'
 
 /**
  * 故障原因诊断
